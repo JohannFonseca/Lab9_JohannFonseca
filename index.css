@@ -1,0 +1,39 @@
+/* estilos base para resetear margenes y padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* variables de colores para facil mantenimiento */
+:root {
+  --ucr-blue: #1a3a6b;
+  --ucr-yellow: #f0c95c;
+  --ucr-white: #ffffff;
+  --ucr-teal: #00abb3;
+  --ucr-purple: #6d459d;
+  --ucr-pink: #e43e9e;
+  --shadow-soft: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* configuracion general del cuerpo */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--ucr-white);
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* contenedor que centra los paneles */
+.contenedor-carteles {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+}

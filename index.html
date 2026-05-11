@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UCR - Paneles con Web Components</title>
+  
+  <!-- cargamos los estilos base -->
+  <link rel="stylesheet" href="index.css">
+
+  <!-- cargamos los componentes como modulos -->
+  <script type="module" src="./components/DirectoryItem.js"></script>
+  <script type="module" src="./components/DirectoryPanel.js"></script>
+  <script type="module" src="./components/CampaignTitle.js"></script>
+  <script type="module" src="./components/CampaignPanel.js"></script>
+</head>
+<body>
+
+  <!-- contenedor principal que organiza los paneles -->
+  <div class="contenedor-carteles">
+
+    <!-- panel azul del directorio -->
+    <directory-panel>
+      <!-- los items se pasan dentro del panel usando slots -->
+      <directory-item text="Aulas 5, 6, 7"></directory-item>
+      <directory-item text="Apoyo Informático"></directory-item>
+      <directory-item text="Servidores"></directory-item>
+      <directory-item text="Laboratorio 1 y 2"></directory-item>
+      <directory-item text="Coordinación Informática Empresarial"></directory-item>
+    </directory-panel>
+
+    <!-- panel amarillo de la campaña -->
+    <campaign-panel></campaign-panel>
+
+  </div>
+
+</body>
+</html>
