@@ -43,8 +43,8 @@ class DirectoryPanel extends HTMLElement {
           letter-spacing: 4px;
           color: #1a3a6b;
           background: white;
-          border-radius: 100px 100px 0 0;
-          padding: 1.5rem 2rem 1rem;
+          border-radius: 100% 100% 0 0;
+          padding: 1.5rem 3.5rem 1rem;
           width: 70%;
           margin-left: auto;
           margin-right: auto;

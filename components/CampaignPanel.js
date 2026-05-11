@@ -61,10 +61,10 @@ class CampaignPanel extends HTMLElement {
 
         /* imagen del meme */
         .spiderman {
-          width: 100%;
-          max-width: 400px;
+          width: 90%;
+          max-width: 600px;
           margin-top: auto;
-          margin-bottom: 1.5rem;
+          margin-bottom: 1rem;
         }
 
         /* pie de pagina con logos */
